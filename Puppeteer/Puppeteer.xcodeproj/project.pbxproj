@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194E109319D959DD007EE740 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194E109219D959DD007EE740 /* Cocoa.framework */; };
+		194E109D19D959DD007EE740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194E109B19D959DD007EE740 /* InfoPlist.strings */; };
+		194E109F19D959DD007EE740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E109E19D959DD007EE740 /* main.m */; };
+		194E10A319D959DD007EE740 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 194E10A119D959DD007EE740 /* Credits.rtf */; };
+		194E10A619D959DE007EE740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E10A519D959DE007EE740 /* AppDelegate.m */; };
+		194E10A919D959DE007EE740 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 194E10A719D959DE007EE740 /* MainMenu.xib */; };
+		194E10AB19D959DE007EE740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194E10AA19D959DE007EE740 /* Images.xcassets */; };
+		194E10B219D959DE007EE740 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194E10B119D959DE007EE740 /* XCTest.framework */; };
+		194E10B319D959DE007EE740 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194E109219D959DD007EE740 /* Cocoa.framework */; };
+		194E10BB19D959DE007EE740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194E10B919D959DE007EE740 /* InfoPlist.strings */; };
+		194E10BD19D959DE007EE740 /* PuppeteerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E10BC19D959DE007EE740 /* PuppeteerTests.m */; };
+		194E10F719D96326007EE740 /* ButtonWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E10C919D95D9D007EE740 /* ButtonWindow.m */; };
+		194E10F919D9665D007EE740 /* finger.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 194E10F819D9665D007EE740 /* finger.scpt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		194E10B419D959DE007EE740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194E108719D959DD007EE740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194E108E19D959DD007EE740;
+			remoteInfo = Puppeteer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194E108F19D959DD007EE740 /* Puppeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		194E109219D959DD007EE740 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		194E109519D959DD007EE740 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		194E109619D959DD007EE740 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		194E109719D959DD007EE740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		194E109A19D959DD007EE740 /* Puppeteer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puppeteer-Info.plist"; sourceTree = "<group>"; };
+		194E109C19D959DD007EE740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		194E109E19D959DD007EE740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		194E10A019D959DD007EE740 /* Puppeteer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puppeteer-Prefix.pch"; sourceTree = "<group>"; };
+		194E10A219D959DD007EE740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		194E10A419D959DE007EE740 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		194E10A519D959DE007EE740 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		194E10A819D959DE007EE740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		194E10AA19D959DE007EE740 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		194E10B019D959DE007EE740 /* PuppeteerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuppeteerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		194E10B119D959DE007EE740 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		194E10B819D959DE007EE740 /* PuppeteerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuppeteerTests-Info.plist"; sourceTree = "<group>"; };
+		194E10BA19D959DE007EE740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		194E10BC19D959DE007EE740 /* PuppeteerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuppeteerTests.m; sourceTree = "<group>"; };
+		194E10C819D95D9D007EE740 /* ButtonWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonWindow.h; sourceTree = "<group>"; };
+		194E10C919D95D9D007EE740 /* ButtonWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonWindow.m; sourceTree = "<group>"; };
+		194E10F819D9665D007EE740 /* finger.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = finger.scpt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194E108C19D959DD007EE740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194E109319D959DD007EE740 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194E10AD19D959DE007EE740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194E10B319D959DE007EE740 /* Cocoa.framework in Frameworks */,
+				194E10B219D959DE007EE740 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194E108619D959DD007EE740 = {
+			isa = PBXGroup;
+			children = (
+				194E109819D959DD007EE740 /* Puppeteer */,
+				194E10B619D959DE007EE740 /* PuppeteerTests */,
+				194E109119D959DD007EE740 /* Frameworks */,
+				194E109019D959DD007EE740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		194E109019D959DD007EE740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194E108F19D959DD007EE740 /* Puppeteer.app */,
+				194E10B019D959DE007EE740 /* PuppeteerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194E109119D959DD007EE740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194E109219D959DD007EE740 /* Cocoa.framework */,
+				194E10B119D959DE007EE740 /* XCTest.framework */,
+				194E109419D959DD007EE740 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		194E109419D959DD007EE740 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194E109519D959DD007EE740 /* AppKit.framework */,
+				194E109619D959DD007EE740 /* CoreData.framework */,
+				194E109719D959DD007EE740 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		194E109819D959DD007EE740 /* Puppeteer */ = {
+			isa = PBXGroup;
+			children = (
+				194E10A419D959DE007EE740 /* AppDelegate.h */,
+				194E10A519D959DE007EE740 /* AppDelegate.m */,
+				194E10C819D95D9D007EE740 /* ButtonWindow.h */,
+				194E10C919D95D9D007EE740 /* ButtonWindow.m */,
+				194E10A719D959DE007EE740 /* MainMenu.xib */,
+				194E10AA19D959DE007EE740 /* Images.xcassets */,
+				194E109919D959DD007EE740 /* Supporting Files */,
+			);
+			path = Puppeteer;
+			sourceTree = "<group>";
+		};
+		194E109919D959DD007EE740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				194E10F819D9665D007EE740 /* finger.scpt */,
+				194E109A19D959DD007EE740 /* Puppeteer-Info.plist */,
+				194E109B19D959DD007EE740 /* InfoPlist.strings */,
+				194E109E19D959DD007EE740 /* main.m */,
+				194E10A019D959DD007EE740 /* Puppeteer-Prefix.pch */,
+				194E10A119D959DD007EE740 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		194E10B619D959DE007EE740 /* PuppeteerTests */ = {
+			isa = PBXGroup;
+			children = (
+				194E10BC19D959DE007EE740 /* PuppeteerTests.m */,
+				194E10B719D959DE007EE740 /* Supporting Files */,
+			);
+			path = PuppeteerTests;
+			sourceTree = "<group>";
+		};
+		194E10B719D959DE007EE740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				194E10B819D959DE007EE740 /* PuppeteerTests-Info.plist */,
+				194E10B919D959DE007EE740 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		194E108E19D959DD007EE740 /* Puppeteer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194E10C019D959DE007EE740 /* Build configuration list for PBXNativeTarget "Puppeteer" */;
+			buildPhases = (
+				194E108B19D959DD007EE740 /* Sources */,
+				194E108C19D959DD007EE740 /* Frameworks */,
+				194E108D19D959DD007EE740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puppeteer;
+			productName = Puppeteer;
+			productReference = 194E108F19D959DD007EE740 /* Puppeteer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		194E10AF19D959DE007EE740 /* PuppeteerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194E10C319D959DE007EE740 /* Build configuration list for PBXNativeTarget "PuppeteerTests" */;
+			buildPhases = (
+				194E10AC19D959DE007EE740 /* Sources */,
+				194E10AD19D959DE007EE740 /* Frameworks */,
+				194E10AE19D959DE007EE740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194E10B519D959DE007EE740 /* PBXTargetDependency */,
+			);
+			name = PuppeteerTests;
+			productName = PuppeteerTests;
+			productReference = 194E10B019D959DE007EE740 /* PuppeteerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194E108719D959DD007EE740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YOHO;
+				TargetAttributes = {
+					194E10AF19D959DE007EE740 = {
+						TestTargetID = 194E108E19D959DD007EE740;
+					};
+				};
+			};
+			buildConfigurationList = 194E108A19D959DD007EE740 /* Build configuration list for PBXProject "Puppeteer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 194E108619D959DD007EE740;
+			productRefGroup = 194E109019D959DD007EE740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194E108E19D959DD007EE740 /* Puppeteer */,
+				194E10AF19D959DE007EE740 /* PuppeteerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194E108D19D959DD007EE740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194E109D19D959DD007EE740 /* InfoPlist.strings in Resources */,
+				194E10F919D9665D007EE740 /* finger.scpt in Resources */,
+				194E10AB19D959DE007EE740 /* Images.xcassets in Resources */,
+				194E10A319D959DD007EE740 /* Credits.rtf in Resources */,
+				194E10A919D959DE007EE740 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194E10AE19D959DE007EE740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194E10BB19D959DE007EE740 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194E108B19D959DD007EE740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194E10A619D959DE007EE740 /* AppDelegate.m in Sources */,
+				194E10F719D96326007EE740 /* ButtonWindow.m in Sources */,
+				194E109F19D959DD007EE740 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194E10AC19D959DE007EE740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194E10BD19D959DE007EE740 /* PuppeteerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		194E10B519D959DE007EE740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 194E108E19D959DD007EE740 /* Puppeteer */;
+			targetProxy = 194E10B419D959DE007EE740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		194E109B19D959DD007EE740 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194E109C19D959DD007EE740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		194E10A119D959DD007EE740 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194E10A219D959DD007EE740 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		194E10A719D959DE007EE740 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194E10A819D959DE007EE740 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		194E10B919D959DE007EE740 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194E10BA19D959DE007EE740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		194E10BE19D959DE007EE740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		194E10BF19D959DE007EE740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		194E10C119D959DE007EE740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				INFOPLIST_FILE = "Puppeteer/Puppeteer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		194E10C219D959DE007EE740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				INFOPLIST_FILE = "Puppeteer/Puppeteer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		194E10C419D959DE007EE740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puppeteer.app/Contents/MacOS/Puppeteer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PuppeteerTests/PuppeteerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		194E10C519D959DE007EE740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puppeteer.app/Contents/MacOS/Puppeteer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				INFOPLIST_FILE = "PuppeteerTests/PuppeteerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194E108A19D959DD007EE740 /* Build configuration list for PBXProject "Puppeteer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194E10BE19D959DE007EE740 /* Debug */,
+				194E10BF19D959DE007EE740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194E10C019D959DE007EE740 /* Build configuration list for PBXNativeTarget "Puppeteer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194E10C119D959DE007EE740 /* Debug */,
+				194E10C219D959DE007EE740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194E10C319D959DE007EE740 /* Build configuration list for PBXNativeTarget "PuppeteerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194E10C419D959DE007EE740 /* Debug */,
+				194E10C519D959DE007EE740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194E108719D959DD007EE740 /* Project object */;
+}
